@@ -8,7 +8,7 @@ app = FastAPI()
 # CORS configuration (Allow requests from GitHub Pages)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://muripagss.github.io"],  # your GitHub Pages domain
+    allow_origins=["https://richiemaeomandam.github.io"],  # your GitHub Pages domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
